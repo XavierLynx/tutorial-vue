@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <formulario-persona @add-persona="agregarPersona" />
-            <tabla-personas :personas="personas" @delete-persona="eliminarPersona" @actualizar-persona="actualiarPersona" />
+            <tabla-personas :personas="personas" @delete-persona="eliminarPersona" @actualizar-persona="actualizarPersona" />
         </div>
     </div>
 </div>
